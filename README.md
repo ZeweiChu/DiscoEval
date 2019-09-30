@@ -8,6 +8,8 @@ The structure of this repo:
 - ```discoeval```: the Discourse Evaluation framework
 - ```data```: the DiscoEval evaluation datasets
 
+The pretrained models with different training signals can be downloaded from ```https://drive.google.com/file/d/1I0wFkNb2fmoC7kcj-FPxyVkHKyfX-MoX/view?usp=sharing```
+
 Evaluation example code
 ```
 train/discoeval_example.py
