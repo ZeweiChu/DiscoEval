@@ -13,6 +13,11 @@ Evaluation example code
 train/discoeval_example.py
 ```
 
+The code is tested under the following environment/versions:
+- Python 3.6.2
+- PyTorch 1.0.0
+- numpy 1.16.0
+
 Some code in this repo is adopted from [SentEval](https://github.com/facebookresearch/SentEval). 
 
 
