@@ -1,7 +1,7 @@
 # Disco Eval
 
 This repository contains the code for Disco Eval
-[Evaluation Benchmarks and Learning Criteriafor Discourse-Aware Sentence Representations](https://arxiv.org/abs/1909.00142)
+[Evaluation Benchmarks and Learning Criteriafor Discourse-Aware Sentence Representations](https://arxiv.org/abs/1909.00142) (EMNLP 2019).
 
 The structure of this repo:
 - ```train```: the training code
@@ -20,4 +20,15 @@ The code is tested under the following environment/versions:
 
 Some code in this repo is adopted from [SentEval](https://github.com/facebookresearch/SentEval). 
 
+
+## Reference
+
+```
+@inproceedings{mchen-discoeval-19,
+  author    = {Mingda Chen and Zewei Chu and Kevin Gimpel},
+  title     = {Evaluation Benchmarks and Learning Criteria for Discourse-Aware Sentence Representations},
+  booktitle = {Proc. of {EMNLP}},
+  year      = {2019}
+}
+```
 
