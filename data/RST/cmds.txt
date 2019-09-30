@@ -1,0 +1,1 @@
+cp /share/data/speech/mingda/data/for-zewei/SentEval/data/*.pkl .
