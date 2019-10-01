@@ -1,7 +1,7 @@
 # DiscoEval
 
 This repository contains the code for DiscoEval
-[Evaluation Benchmarks and Learning Criteriafor Discourse-Aware Sentence Representations](https://arxiv.org/abs/1909.00142) (EMNLP 2019).
+[Evaluation Benchmarks and Learning Criteria for Discourse-Aware Sentence Representations](https://arxiv.org/abs/1909.00142) (EMNLP 2019).
 
 The structure of this repo:
 - ```train```: the training code
