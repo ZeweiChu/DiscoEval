@@ -45,6 +45,8 @@ Some code in this repo is adopted from [SentEval](https://github.com/facebookres
 |BERT base|53.1                         |68.5  |58.9                                         |80.3|41.9  |42.4  |58.8|57.7|
 |BERT large|53.8                         |69.3  |59.6                                         |80.4|44.3  |43.6  |59.1|58.6|
 
+You may notice some difference from the above table with our camera-ready version appeared on EMNLP 2019. 
+The differences are: we removed the hidden states in SSP (previously 2000 by mistake), we regenerated the SP dataset (previously the sentence orders were shuffled, now the sentences are in the original order except the first sentence). 
 
 ## Reference
 
