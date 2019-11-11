@@ -3,7 +3,6 @@
 # ./run_bert.sh 0 avg large
 
 hostname
-source activate transformers 
 echo "task: "$1
 echo "layer: "$2
 echo "model type:" $3
