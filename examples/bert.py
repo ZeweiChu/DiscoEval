@@ -75,8 +75,8 @@ if __name__ == "__main__":
     config = BertConfig.from_pretrained('bert-{}-uncased'.format(args.model_type))
     config.output_hidden_states = True
     config.output_attentions = True
-    tokenizer = BertTokenizer.from_pretrained('bert-{}-uncased'.format(args.model_type), cache_dir="/share/data/lang/users/zeweichu/entity-context/evals/bert/cache")
-    model = BertModel.from_pretrained('bert-{}-uncased'.format(args.model_type), cache_dir="/share/data/lang/users/zeweichu/entity-context/evals/bert/cache", config=config).cuda()
+    tokenizer = BertTokenizer.from_pretrained('bert-{}-uncased'.format(args.model_type))
+    model = BertModel.from_pretrained('bert-{}-uncased'.format(args.model_type), config=config).cuda()
     model.eval()
 
     # Set params for SentEval
